@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+    color: #696969;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+img {
+    height: 200px;
+    width: 270px;
+    object-fit: cover;
+}
+h1 {
+    font-family: 'Italiana', sans-serif;
+    text-align: center;
+    font-size: 50px;
+
+}
+h3 {
+    color: #696969;
+    text-align: center;
+}
+.filter {
+    justify-content: center;
+    background: white;
+    float: left;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+    box-shadow: -1px 1px 14px -4px rgba(0,0,0,0.75);
+}
+.filter.pig {
+    display: "";
+}
+.filter.vegetarian {
+    display: block;
+    background-color: white
+}
+.filter.chicken {
+    display: "";
+}
+.filter.fish {
+    display: "";
+}
+.nav_filter {
+    cursor: pointer;
+    display: inline-block;
+    border: solid 0px transparent;
+    background-color: #e76f6f;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+    margin: 1px;
+}
+#filterDropdown {
+    padding: 5px;
+    background-color: white;
+    margin-top: 5px;
+    color: #696969;
+}
+#sortingDropdown {
+    padding: 5px;
+    background-color: white;
+    margin-top: 5px;
+    color:#696969;
+}
+@media screen and (max-width: 600px) {
+    .filter { 
+        justify-content: center;
+        padding: 3%;
+        margin: 3%;
+    }
+    }
